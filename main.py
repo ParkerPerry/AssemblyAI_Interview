@@ -72,7 +72,7 @@ def main():
     st.title("J.A.C. AI-Driven Analytics Demo")
 
     # Set your AssemblyAI API key
-    ASSEMBLYAI_API_KEY = "your_assemblyai_api_key_here"
+    ASSEMBLYAI_API_KEY = "38b14fb605304e9989af5ebddd762d77"
 
     # Set your Hugging Face model name
     HF_MODEL_NAME = "bert-large-uncased-whole-word-masking-finetuned-squad"
