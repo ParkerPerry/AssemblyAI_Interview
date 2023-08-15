@@ -23,10 +23,10 @@ from transformers import pipeline, DistilBertTokenizer, DistilBertTokenizerFast,
 
 
 # Set your AssemblyAI API key
-ASSEMBLYAI_API_KEY = "38b14fb605304e9989af5ebddd762d77"
+ASSEMBLYAI_API_KEY = "Enter your key here"
 
 # Set your OpenAI API key
-OPENAI_API_KEY = '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'
+OPENAI_API_KEY = 'Enter your key here'
 
 # Initialize AssemblyAI and OpenAI API keys
 aai.settings.api_key = ASSEMBLYAI_API_KEY
@@ -72,7 +72,7 @@ def main():
     st.title("J.A.C. AI-Driven Analytics Demo")
 
     # Set your AssemblyAI API key
-    ASSEMBLYAI_API_KEY = "38b14fb605304e9989af5ebddd762d77"
+    ASSEMBLYAI_API_KEY = "Enter your key here"
 
     # Set your Hugging Face model name
     HF_MODEL_NAME = "bert-large-uncased-whole-word-masking-finetuned-squad"
